@@ -1,0 +1,4 @@
+- Подключение плагина `gatsby-source-filesystem` добавляет к GraphQL запросам коннекты к `allFile` и `file`.
+- Создание новой страницы часто начинается в GraphiQL. Сначала вы конструируете данные которых хотите получить, после чего копируете его в React компонент страницы чтобы создать UI.(Building new pages with Gatsby often starts in GraphiQL. You first sketch out the data query by playing in GraphiQL then copy this to a React page component to start building the UI.)
+- `console.log(data)` используемый в `/pages/my-files.js` часто полезен при создании компонента чтобы вывести на консоль данные полученные из GraphQL запроса и посмотреть их структуру при создании UI. (The console.log(data) line is highlighted above. It’s often helpful when creating a new component to console out the data you’re getting from the GraphQL query so you can explore the data in your browser console while building the UI.)
+- 
